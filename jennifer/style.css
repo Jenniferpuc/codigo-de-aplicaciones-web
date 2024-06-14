@@ -1,0 +1,20 @@
+/* styles.css */
+.btn-custom {
+    background-color: #ff9800; /* Naranja */
+    border-color: #ff9800; /* Naranja */
+    color: white; /* Texto blanco */
+}
+
+.btn-custom:hover {
+    background-color: #e68900; /* Naranja más oscuro al pasar el ratón */
+    border-color: #e68900; /* Naranja más oscuro al pasar el ratón */
+}
+
+.btn-custom:disabled {
+    background-color: #6c757d; /* Gris */
+    border-color: #6c757d; /* Gris */
+}
+.btn-danger-disabled {
+    color: red !important;
+}
+

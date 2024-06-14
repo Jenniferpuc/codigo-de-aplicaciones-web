@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    <div class="container mt-5 border border-light rounded ">
+        <h1 class="text-center text-white">Lista de Tareas</h1>
+        <form id="taskForm">
+            <div class="form-group">
+                <label for="taskName" class="text-white">Nombre de la Tarea</label>
+                <input type="text" class="form-control" id="taskName" required>
+            </div>
+            <div class="form-group">
+                <label for="startDate" class="text-white">Fecha de Inicio</label>
+                <input type="date" class="form-control text-black" id="startDate" required>
+            </div>
+            <div class="form-group">
+                <label for="endDate" class="text-white">Fecha Fin</label>
+                <input type="date" class="form-control" id="endDate" required>
+            </div>
+            <div class="form-group">
+                <label for="responsible" class="text-white">Contenido</label>
+                <input type="text" class="form-control" id="responsible" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn  justify-content-center btn-custom">Agregar Tarea</button>
+
+            </div>
+        </form>
+        <ul class="list-group mt-4" id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
